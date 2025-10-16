@@ -1,0 +1,144 @@
+/* Styles Généraux */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ff69b4; /* Rose fuchsia, couleur dominante */
+    color: #333;
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+    line-height: 1.2;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #f0f0f0;
+}
+
+
+/* ====== NAVBAR (Ajustements pour Bootstrap) ====== */
+.navbar {
+    background-color: #d63384 !important; /* rose */
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+    color: #fff !important;
+    font-weight: 500;
+}
+
+.navbar .nav-link:hover {
+    text-decoration: underline;
+}
+
+/* Bouton CV */
+.btn-download-cv {
+    background-color: #fff;
+    color: #d63384;
+    font-weight: 600;
+    border-radius: 25px;
+    padding: 8px 18px;
+    text-decoration: none;
+}
+
+.btn-download-cv:hover {
+    background-color: #f5f5f5;
+    color: #d63384;
+}
+
+/* Bouton burger */
+.navbar-toggler {
+    border: none;
+    
+    
+}
+
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+
+/* Correction espacement */
+.navbar-nav .nav-link {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+/* Décalage à cause du fixed-top */
+body {
+    padding-top: 80px;
+}
+
+/* Texte du logo */
+.ocean-text {
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #20039f;
+}
+
+/* Section compétences */
+.competence-section {
+  background-color: #ff4fb8;
+  color: #fff;
+  margin-top: 80px; /* espace à cause de la navbar */
+}
+.competence-section h2 {
+  color: #000;
+}
+.card {
+  border: 1px solid #eee;
+  border-radius: 10px;
+}
+.card img {
+  max-width: 80px;
+}
+
+/* Footer */
+footer {
+    background-color: #00bcd4;
+    color: white;
+    padding: 3rem 5%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.footer-links {
+    display: flex;
+    gap: 3rem;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media {
+    text-align: right;
+}
+
+.social-icons a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #ff69b4;
+    border-radius: 50%;
+    margin-left: 10px;
+    color: white;
+}

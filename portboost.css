@@ -1,0 +1,254 @@
+:root {
+    --color-pink: #ff69b4;
+    --color-blue: #00ffff;
+    --color-dark-blue: #00008b;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--color-pink);
+}
+
+.bg-pink {
+    background-color: var(white);
+}
+
+.bg-blue {
+    background-color: var(--color-pink);
+}
+
+.text-dark-blue {
+    color: var(--color-dark-blue);
+}
+
+.btn-custom1 {
+    background-color: #fbfbff;
+    border: 2px solid var(withe);
+    color: var(withe);
+    font-weight: bold;
+}
+.btn-custom1:hover {
+    background-color: var(--color-dark-blue);
+    color: white;
+}
+.btn-custom {
+    background-color: transparent;
+    border: 2px solid var(--color-dark-blue);
+    color: var(--color-dark-blue);
+    font-weight: bold;
+}
+
+.btn-custom:hover {
+    background-color: var(--color-dark-blue);
+    color: white;
+}
+
+.btn-download-cv {
+    background-color: white;
+    color: var(--color-pink);
+    border: none;
+    font-weight: bold;
+}
+
+.btn-download-cv:hover {
+    background-color: #f0f0f0;
+}
+
+.navbar-brand .ocean-text {
+    color: rgb(9, 3, 97);
+    font-weight: bold;
+}
+
+/* ===== NAVBAR IDENTIQUE À L’AUTRE CODE ===== */
+.navbar {
+    background-color: #d63384 !important; /* rose */
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+    color: #fff !important;
+    font-weight: 500;
+}
+
+.navbar .nav-link:hover {
+    text-decoration: underline;
+}
+
+/* Bouton CV */
+.btn-download-cv {
+    background-color: #fff;
+    color: #d63384;
+    font-weight: 600;
+    border-radius: 25px;
+    padding: 8px 18px;
+    text-decoration: none;
+}
+
+.btn-download-cv:hover {
+    background-color: #f5f5f5;
+    color: #d63384;
+}
+
+/* Bouton burger */
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+
+/* Correction espacement */
+.navbar-nav .nav-link {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+/* Décalage à cause du fixed-top */
+body {
+    padding-top: 80px;
+}
+
+/* Texte du logo */
+.ocean-text {
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+.profile-image {
+    border-radius: 50%;
+    border: 5px solid white;
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+}
+
+.card-custom {
+    border: none;
+    background-color: transparent;
+    color: black;
+}
+
+.card-body-custom {
+    background-color: white;
+    border-radius: 1rem;
+}
+
+.form-control-custom {
+    background-color: var(--color-pink);
+    border: none;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.form-control-custom::placeholder {
+    color: white;
+}
+style>
+        /* Variables de couleur */
+        :root {
+            --footer-bg-color: #00cccc; /* Turquoise */
+            --footer-text-color: #fff;
+            --link-color: #fff;
+            --link-hover-color: #ff3399; /* Rose vif */
+            --button-bg-color: #4b0082; /* Violet foncé */
+            --button-text-color: #fff;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+/* Footer */
+footer {
+    background-color: #00bcd4;
+    color: white;
+    padding: 3rem 5%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.footer-links {
+    display: flex;
+    gap: 3rem;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media {
+    text-align: right;
+}
+
+.social-icons a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #ff69b4;
+    border-radius: 50%;
+    margin-left: 10px;
+    color: white;
+}
+
+        .social-icons a:hover {
+            color: var(--link-hover-color);
+        }
+
+        .cta-button {
+            background-color: var(--button-bg-color);
+            color: var(--button-text-color);
+            border: 2;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-weight: 600;
+            text-transform: uppercase;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .cta-button:hover {
+            background-color: #3b006a;
+        }
+
+        .contact-info a {
+            color: blue;
+            text-decoration: none;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+            padding-top: 20px;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .footer-bottom a {
+            color: var(--link-color);
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        
+        .footer-top-left {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .footer-top-left .star {
+            color: #ff3399; /* Rose vif pour l'étoile */
+            font-size: 1.5rem;
+            margin-right: 10px;
+        }
+    
